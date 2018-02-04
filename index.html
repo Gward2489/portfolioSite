@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Garrett Ward Dev</title>
+    </head>
+
+    <body ng-app="gwDev" ng-cloak>
+        <nav ng-cloak ng-include="'app/partials/nav.html'"></nav>
+        <div ng-cloak ng-view></div>
+    </body>
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>        
+    <script src="./lib/node_modules/angular/angular.min.js"></script>
+    <script src="./lib/node_modules/angular-route/angular-route.min.js"></script>
+    <script src="./app/app.js"></script>
+    <script src="./app/factories/dataFactory.js"></script>
+    <script src="./app/controllers/navCtrl.js"></script>
+    <script src="./app/controllers/pdfCtrl.js"></script>
+    <script src="./app/controllers/projectsCtrl.js"></script>
+    <script src="./app/controllers/splashCtrl.js"></script>
+    <script src="./app/controllers/technologiesCtrl.js"></script>
+</html>

@@ -1,0 +1,293 @@
+{
+    "splash": {
+        "bioOne": " As someone who has always enjoyed working with a craft, software development was naturally appealing to me. Coming from a background of repairing, modifying, and building guitars I adapted naturally to designing software. I was immediantly drawn to programming because it required creative problem solving, much like repairing and modifying guitars. However, I quickly found I had a passion for the aspects of programming that have to relation to music.",
+        "bioTwo": " Upon attending Nashville Software School, I found the world of object oriented programming was very foreign and confusing, but I quickly became fascinated by it. I found myself reading more about the material I was learing in school at home, and often into the early hours of the morning. As I come to a close finishing my education at Nashville Software School, I am excited by the oppurtunity to develop my new craft in the years to come, and to continue to learn new fun and engaging technologies as they emerge."
+    },
+    "projects": {
+        "1": {
+            "name": "Guitar Pricer",
+            "gitUrl": "https://github.com/Gward2489/guitarPricer",
+            "siteUrl": "http://www.guitarPricer.com",
+            "overview": "An application for gathering price information on used and vintage guitars based off of recent market transactions. My front end capstone project from Nashville Software School. Built with angularJs, Javascript, Google Firebase, HTML 5, CSS, CSS Grid, and the Ebay API. All site visitors may search for guitar price information through either a basic search or an advanced search. If users register an account, they may store their guitars into a collection. In this case, the application will automatically search for price information on all of the user's guitars, and deliver the most recent and relevant price information everytime the collection is visited.",
+            "grabs": {
+                "1": {
+                    "name": "Landing Page",
+                    "description": "Users first land on the site here. From this page they can immediantly use the basic search, navigate to the advanced search, or navigate to the log in and registrtion portal.",
+                    "img": "../images/gp3.png"
+                },
+                "2": {
+                    "name": "Log In / Registration Portal",
+                    "description": "On this page, users may register for an account, or log in if they have previously registered. Google Firebase is used for user authentication, and storage of user account information.",
+                    "img": "../images/gp3.png"
+                },
+                "3": {
+                    "name": "Basic Search",
+                    "description": "When a user searches for a guitar, the application will return three prices. An average price, and a high and low price determined by standard deviation. The number of guitars the data is based off of is also displayed. Custom javascript is used to filter out irrelevant search results. If only one search result is found, angularJs is leveraged to display a single price and alert the user there is only one recent sale. If there are no recent sales, an alert is used to tell the customer there were no recent sales matching their search.",
+                    "img": "../images/gp2.png"
+                },
+                "4": {
+                    "name": "Advanced Search",
+                    "description": "When a user visits the advanced search tab, a search form is rendered using angularJs and CSS Grid. The user will be prompted to input the information about their guitar required to obtain detailed price information. The user may fill out a few optional fields to obtain the most detailed results possible.",
+                    "img": "../images/gp8.png"
+                },
+                "5": {
+                    "name": "Advanced Search Results",
+                    "description": "AngularJs and CSS Grid are used to to render detailed search results for each price category. If only a single result is found for a category, or no results are found for a category, angularJs is leveraged to render the appropriate information.",
+                    "img": "../images/gp9.png"
+                },
+                "6": {
+                    "name": "User Guitar Entry",
+                    "description": "AngularJs and CSS Grid are used to render a form for intaking the information needed to create a new guitar in the user's collection. After Submiting their guitar information, the user is redirected to their current collection of guitars. The user's collection of guitars is stored in Google Firebase.",
+                    "img": "../images/gp10.png"
+                },
+                "7": {
+                    "name": "User Guitar Collection",
+                    "description": "AngularJs, Google Firabase, the Ebay API, CSS Grid, and Javascript are used in conjunction to render rows of th user's guitars. Everytime the user visits this page the application performs new calls to Ebay to obtain the most recent sales data. The collection is interactive. Users may view average, high price, and low price information by clicking the corresponding button. They may also delete a guitar from their collection. Like the other search features, if no results or a single result are returned, angularJs is used to display the appropriate information.",
+                    "img": "../images/gp5.png"
+                },
+                "8": {
+                    "name": "User Guitar High Prices",
+                    "description": "AngularJs is used to display high prices. If there was a single result or no results, angularJs renders the appropriate information.",
+                    "img": "../images/gp6.png"
+                },
+                "9": {
+                    "name": "User Guitar Low Prices",
+                    "description": " ",
+                    "img": "../images/gp7.png"
+                }
+            }
+        },
+        "2": {
+            "name": "Nutshell",
+            "gitUrl": "https://github.com/nss-day-cohort-22/nutshell-malicious-humans",
+            "siteUrl": "",
+            "overview": "An application for social media. User's may chat, create friends, create events, create news, and manage personal tasks. A team project for Nashville Software School. We used Javascript, Browserify, and Bootstrap to create the application. Local Storage was leveraged for data management. We collaboratively built the sign in and data storage system, and I was responsible for building the chat feature.",
+            "grabs": {
+                "1": {
+                    "name": "Welcome Page",
+                    "description": "Landing Page where user's may choose to log in or register.",
+                    "img": "../images/nutshell1.png"
+                },
+                "2": {
+                    "name": "Sign Up Form",
+                    "description": "A form where user's may register for a new account",
+                    "img": "../images/nutshell2.png"
+                },
+                "3": {
+                    "name": "User Landing Page",
+                    "description": "The page the user sees after log in or registration. All application features are accesible from this page.",
+                    "img": "../images/nutshell3.png"
+                },
+                "4": {
+                    "name": "Basic Chatting",
+                    "description": "After entering the chat room, users will be able to chat with eachother. Multiple users may log in to the application on the same browser, within different tabs. This feature is powered by javascript, session storage, local storage, and browserify.",
+                    "img": "../images/nutshell4.png"
+                },
+                "5": {
+                    "name": "Live Messages with Local Storage",
+                    "description": "By placing an event listener on local storage, the chat room is updated across all open tabs as soon as a message is submitted.",
+                    "img": "../images/nutshell5.png"
+                },
+                "6": {
+                    "name": "Message Editing and Deleting",
+                    "description": "Users may edit and delete their messages. This features is built with javascript, browserify, and event listeners on local storage.",
+                    "img": "../images/nutshell6.png"
+                },
+                "7": {
+                    "name": "Live Message Edits and Updates",
+                    "description": "The message board is immedianty updated across all tabs when messages are edited or deleted. This feature is built with javascript, browserify, and event listeners on local storage.",
+                    "img": "../images/nutshell7.png"
+                },
+                "8": {
+                    "name": "Add Friends From The Message Board",
+                    "description": "If you click on another user's name you will be prompted to add them to your friend list, or not. This feature is built with javascript and browserify.",
+                    "img": "../images/gp7.png"
+                }
+            }
+        },
+        "3": {
+            "name": "Movie Tracker",
+            "gitUrl": "https://github.com/nss-day-cohort-22/movie-history-malicious-humans",
+            "siteUrl": "",
+            "overview": "An application that allows user to search for movies, track movies, and rate movies after watching them. This application is built with a free movie database API, JQuery, Google Firebase, Javascript, Browserify.",
+            "grabs": {
+                "1": {
+                    "name": "Landing Page",
+                    "description": "A page welcoming users and prompting them to log in.",
+                    "img": "../images/movie1.png"
+                },
+                "2": {
+                    "name": "Log In / Registration Portal",
+                    "description": "A log in and registration portal built with javascript, jQuery, and Google Firebase.",
+                    "img": "../images/movie2.png"
+                },
+                "3": {
+                    "name": "User Landing Page",
+                    "description": "The landing page for users after they log in. From this page they may navigate to search for new movies to track, or navigate to view their current collection of saved movies.",
+                    "img": "../images/movie3.png"
+                },
+                "4": {
+                    "name": "Movie Search",
+                    "description": "Users may search a movie database for movies they would like to add to their collection. This feature is built with javascript, jQuery, and a free movie database API.",
+                    "img": "../images/movie4.png"
+                },
+                "5": {
+                    "name": "Tracked Movie Collection",
+                    "description": "On this page, users may view their collection of tracked movies. By default is will show movies that they have watched and not watched.",
+                    "img": "../images/movie5.png"
+                },
+                "6": {
+                    "name": "Movie Filter",
+                    "description": "By clicking the respective button, users may display onlymovies they have watched, or only movies they have not yet watched.",
+                    "img": "../images/movie6.png"
+                },
+                "7": {
+                    "name": "Rate Movies",
+                    "description": "Users may rate a movie when they mark it as watched. They may pick between one and five stars.",
+                    "img": "../images/movie7.png"
+                }
+            }
+        }
+    },
+    "technologies": [
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/VisualStudioCode.png?raw=true",
+          "name": "Visual Studio Code",
+          "tags": ["C#", "tools"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/VisualStudio.png?raw=true",
+          "name": "Visual Studio",
+          "tags": ["C#", "tools"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Slack.png?raw=true",
+          "name": "Slack",
+          "tags": ["tools"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Trello.png?raw=true",
+          "name": "Trello",
+          "tags": ["tools"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/DrawIo.png?raw=true",
+          "name": "Draw.io",
+          "tags": ["tools"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Git.png?raw=true",
+          "name": "Git",
+          "tags": ["tools"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Github.png?raw=true",
+          "name": "Github",
+          "tags": ["tools"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/NPM.png?raw=true",
+          "name": "NPM",
+          "tags": ["tools", "node"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Bower.png?raw=true",
+          "name": "Bower",
+          "tags": ["tools", "frontend"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/HTML5.png?raw=true",
+          "name": "HTML",
+          "tags": ["frontend", "language"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/CSS.png?raw=true",
+          "name": "CSS",
+          "tags": ["frontend", "language"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Javascript.png?raw=true",
+          "name": "JS, ES6",
+          "tags": ["frontend", "language"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Bootstrap.png?raw=true",
+          "name": "Bootstrap",
+          "tags": ["frontend"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Materialize.png?raw=true",
+          "name": "Materialize",
+          "tags": ["frontend"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Sass.png?raw=true",
+          "name": "Sass",
+          "tags": ["frontend"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Angular.png?raw=true",
+          "name": "AngularJS",
+          "tags": ["frontend"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Browserify.png?raw=true",
+          "name": "Browserify",
+          "tags": ["frontend"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Node.png?raw=true",
+          "name": "NodeJS",
+          "tags": ["node"]
+        },
+
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Mongo.png?raw=true",
+          "name": "Mongo",
+          "tags": ["node", "database"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/SocketIo.png?raw=true",
+          "name": "Socket.io",
+          "tags": ["node"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/ASPDotNet.png?raw=true",
+          "name": "ASP.NET",
+          "tags": ["C#"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/LINQ.png?raw=true",
+          "name": "LINQ",
+          "tags": ["C#", "database"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Azure.png?raw=true",
+          "name": "Azure",
+          "tags": ["C#"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/SQLite.png?raw=true",
+          "name": "SQLite",
+          "tags": ["C#", "database"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/SQLServer.png?raw=true",
+          "name": "SQLServer",
+          "tags": ["C#", "database"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/Firebase.png?raw=true",
+          "name": "Firebase",
+          "tags": ["database"]
+        },
+        {
+          "img": "https://github.com/Gward2489/technology-images/blob/master/TechnologyImages/CSharp.png?raw=true",
+          "name": "C#",
+          "tags": ["C#"]
+        }
+      ],
+      "pdf": {
+          "content": "Coming Soon"
+      }  
+}
