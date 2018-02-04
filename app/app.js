@@ -8,7 +8,7 @@ app.config(function($routeProvider) {
         })
         .when("/projects", {
             templateUrl: "app/partials/projects.html",
-            controller:  "projectCtrl",
+            controller:  "projectsCtrl",
         })
         .when("/technologies", {
             templateUrl: "app/partials/technologies.html",

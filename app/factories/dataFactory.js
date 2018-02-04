@@ -18,6 +18,10 @@ angular.module("gwDev")
             },
             "getSplashInfo": {
                 value: () => this.cache.data.splash,
+                writable: false
+            },
+            "getProjects": {
+                value: () => this.cache.data.projects,
                 writable: true
             }
         })

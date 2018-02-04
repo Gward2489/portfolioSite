@@ -1,0 +1,63 @@
+<div>
+    <div>
+
+        <div>
+            <h5>
+                <i class="fas fa-angle-right"></i>
+            </h5>
+        </div>
+
+        <div>
+            <h5>
+                <i class="fas fa-angle-left"></i>
+            </h5>
+        </div>
+
+        <div ng-repeat="(key, value) in projects">
+            <div>
+                <div>
+                    <div>
+                        {{value.name}}
+                    </div>
+                    <div ng-click="linkTo(value.gitUrl)">
+                        View source code on GitHub
+                    </div>
+                    <div ng-click="linkTo(value.siteUrl)">
+                        Visit Site
+                    </div>
+                    <div>
+                        {{value.overview}}
+                    </div>
+                </div>
+                <div ng-repeat="(key, value) in value.grabs">
+                    <button>
+                        {{value.name}}
+                    </button>
+                </div>
+                <div ng-repeat="(key, value) in value.grabs">
+                    <div>
+                        <div>
+                            {{value.name}}
+                        </div>
+                        <div>
+                            {{value.description}}
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img ng-src="{{value.img}}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div ng-repeat="(key, value) in projects">
+                <p>
+                    {{key}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
