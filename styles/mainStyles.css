@@ -1,0 +1,80 @@
+body {
+  font: 100% "Josefin Sans", sans-serif;
+  display: grid;
+  grid-template-rows: 15% 85%;
+  grid-template-areas: "navi" "content"; }
+
+.navBar {
+  display: grid;
+  grid-area: navi;
+  max-height: 20em;
+  grid-template-columns: 20% 80%;
+  grid-template-areas: "devDisplay links"; }
+
+.devIcons {
+  display: grid;
+  grid-area: devDisplay;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "picture" "name"; }
+
+.linksSubGrid {
+  display: grid;
+  grid-area: links;
+  grid-template-columns: 1fr repeat(6);
+  grid-template-areas: "two1 two2 two3 two4 two5 two6"; }
+  .linksSubGrid :nth-child(1) {
+    display: grid;
+    grid-area: two1;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "upper1" "lower1"; }
+    .linksSubGrid :nth-child(1) i {
+      grid-area: upper1; }
+    .linksSubGrid :nth-child(1) h5 {
+      grid-area: lower1; }
+  .linksSubGrid :nth-child(2) {
+    display: grid;
+    grid-area: two2;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "upper2" "lower2"; }
+    .linksSubGrid :nth-child(2) i {
+      grid-area: upper2; }
+    .linksSubGrid :nth-child(2) h5 {
+      grid-area: lower2; }
+  .linksSubGrid :nth-child(3) {
+    display: grid;
+    grid-area: two3;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "upper3" "lower3"; }
+    .linksSubGrid :nth-child(3) i {
+      grid-area: upper3; }
+    .linksSubGrid :nth-child(3) h5 {
+      grid-area: lower3; }
+  .linksSubGrid :nth-child(4) {
+    display: grid;
+    grid-area: two4;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "upper4" "lower4"; }
+    .linksSubGrid :nth-child(4) i {
+      grid-area: upper4; }
+    .linksSubGrid :nth-child(4) h5 {
+      grid-area: lower4; }
+  .linksSubGrid :nth-child(5) {
+    display: grid;
+    grid-area: two5;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "upper5" "lower5"; }
+    .linksSubGrid :nth-child(5) i {
+      grid-area: upper5; }
+    .linksSubGrid :nth-child(5) h5 {
+      grid-area: lower5; }
+  .linksSubGrid :nth-child(6) {
+    display: grid;
+    grid-area: two6;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "upper6" "lower6"; }
+    .linksSubGrid :nth-child(6) i {
+      grid-area: upper6; }
+    .linksSubGrid :nth-child(6) h5 {
+      grid-area: lower6; }
+
+/*# sourceMappingURL=mainStyles.css.map */

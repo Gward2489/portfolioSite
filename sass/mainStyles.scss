@@ -1,0 +1,59 @@
+$fontStack: 'Josefin Sans', sans-serif;
+
+body {
+    font: 100% $fontStack;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: 
+    "navi"
+    "content"
+    ;
+}
+
+.navBar {
+    display: grid;
+    grid-area: navi;
+    max-height: 20em;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: 
+    "devDisplay links"
+    ;
+}
+
+.devIcons {
+    display: grid;
+    grid-area: devDisplay;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "picture"
+    "name"
+    ;
+}
+
+.linksSubGrid {
+    display: grid;
+    grid-area: links;
+    grid-template-columns: 1fr repeat(6);
+    grid-template-areas: 
+    "two1 two2 two3 two4 two5 two6"
+    ;
+    @for $i from 1 through 6 {
+        :nth-child(#{$i}) {
+            display: grid;
+            grid-area: two#{$i};
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas:
+            "upper#{$i}"
+            "lower#{$i}"
+            ;
+            i {
+                grid-area: upper#{$i};
+            }
+            h5 {
+                grid-area: lower#{$i};
+            }
+        }
+    }
+}
+
+
