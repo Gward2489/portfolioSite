@@ -101,7 +101,7 @@
                 "8": {
                     "name": "Add Friends From The Message Board",
                     "description": "If you click on another user's name you will be prompted to add them to your friend list, or not. This feature is built with javascript and browserify.",
-                    "img": "../images/gp7.png"
+                    "img": "../images/nutshell8.png"
                 }
             }
         },
