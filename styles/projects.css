@@ -1,0 +1,22 @@
+.projectsWrap {
+  display: grid;
+  grid-area: content;
+  grid-template-columns: 5% 90% 5%;
+  grid-template-rows: 90% 10%;
+  grid-template-areas: "left projWrap right" ". projNumbs ."; }
+  .projectsWrap .rightArrow {
+    grid-area: right; }
+  .projectsWrap .leftArrow {
+    grid-area: left; }
+  .projectsWrap .projectNumbers {
+    grid-area: projNumbs; }
+  .projectsWrap .projectsWrap2 {
+    display: grid;
+    grid-area: projWrap;
+    grid-template-rows: auto;
+    grid-template-areas: "projWrap2"; }
+    .projectsWrap .projectsWrap2 .projImg {
+      height: auto;
+      width: 45em; }
+
+/*# sourceMappingURL=projects.css.map */
