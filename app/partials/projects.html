@@ -30,23 +30,29 @@
                         {{value.overview}}
                     </div>
                 </div>
-                <div ng-repeat="(key, value) in value.grabs">
-                    <button>
-                        {{value.name}}
-                    </button>
-                </div>
-                <div ng-repeat="(key, value) in value.grabs">
-                    <div>
-                        <div>
+
+                <div class="buttonWrap">
+                    <div ng-repeat="(key, value) in value.grabs">
+                        <button ng-click="changeGrab(key)" class="projButton">
                             {{value.name}}
-                        </div>
-                        <div>
-                            {{value.description}}
-                        </div>
+                        </button>
                     </div>
-                    <div>
+                </div>
+
+                <div ng-repeat="(key, value) in value.grabs">
+                    <div ng-if="grabDisplay === key">
                         <div>
-                            <img class="projImg" ng-src="{{value.img}}">
+                            <div>
+                                {{value.name}}
+                            </div>
+                            <div>
+                                {{value.description}}
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img class="projImg" ng-src="{{value.img}}">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -57,7 +63,7 @@
 
     <div class="projectNumbers">
         <div ng-repeat="(key, value) in projects">
-            <p>
+            <p ng-click="numbClick(key)">
                 {{key}}
             </p>
         </div>

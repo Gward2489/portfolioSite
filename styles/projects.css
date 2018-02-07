@@ -9,12 +9,21 @@
   .projectsWrap .leftArrow {
     grid-area: left; }
   .projectsWrap .projectNumbers {
+    display: flex;
+    justify-content: center;
     grid-area: projNumbs; }
+    .projectsWrap .projectNumbers p {
+      margin: 0 2em; }
   .projectsWrap .projectsWrap2 {
     display: grid;
     grid-area: projWrap;
     grid-template-rows: auto;
     grid-template-areas: "projWrap2"; }
+    .projectsWrap .projectsWrap2 .buttonWrap {
+      display: flex;
+      justify-content: center; }
+    .projectsWrap .projectsWrap2 .projButton {
+      margin: 0 1em 0 1em; }
     .projectsWrap .projectsWrap2 .projImg {
       height: auto;
       width: 45em; }

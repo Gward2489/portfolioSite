@@ -18,7 +18,7 @@
                 "2": {
                     "name": "Log In / Registration Portal",
                     "description": "On this page, users may register for an account, or log in if they have previously registered. Google Firebase is used for user authentication, and storage of user account information.",
-                    "img": "../images/gp3.png"
+                    "img": "../images/gp4.png"
                 },
                 "3": {
                     "name": "Basic Search",
