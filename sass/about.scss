@@ -1,0 +1,21 @@
+.aboutWrap {
+    display: grid;
+    margin-top: 2em;
+    grid-area: content;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: 
+    "head"
+    "body"
+    ;
+}
+
+.aboutHeader {
+    display: grid;
+    grid-area: head;
+}
+
+
+.bioWrap {
+    display: grid;
+    grid-area: body;
+}
