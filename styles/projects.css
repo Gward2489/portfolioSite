@@ -3,7 +3,7 @@
   grid-area: content;
   justify-self: center;
   text-align: center;
-  margin: -1.1em 3.3em 0 3.3em;
+  margin: 0 3.3em 0 3.3em;
   height: 53em;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 5% 90% 5%;

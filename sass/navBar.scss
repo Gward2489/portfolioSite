@@ -8,6 +8,7 @@
     .navBar {
         display: grid;
         grid-area: bar;
+        background-color: rgba(119, 239, 255, 0.788);
         grid-template-columns: 1fr 2fr 1fr 9fr 1fr;
         grid-template-areas: 
         ". devDisplay . links ."
