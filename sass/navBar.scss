@@ -8,9 +8,9 @@
     .navBar {
         display: grid;
         grid-area: bar;
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 1fr 2fr 1fr 9fr 1fr;
         grid-template-areas: 
-        "devDisplay links"
+        ". devDisplay . links ."
         ;
         .devIcons {
             display: grid;
@@ -22,6 +22,7 @@
             ;
             :nth-child(1) {
                 grid-area: devPic;
+                white-space: nowrap;
                 justify-self: center;
             }
         
@@ -33,7 +34,7 @@
         .linksSubGrid {
             display: grid;
             grid-area: links;
-            margin-top: 2em;
+            margin-top: 3.3em;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
             grid-template-areas: 
             "tab1 tab2 tab3 tab4 tab5 tab6"
@@ -51,9 +52,10 @@
                     :nth-child(1) {
                         display: grid;
                         justify-self: center;
-                        margin-bottom: -2em;
+                        margin-top: -.5em;
                         grid-area: upper#{$i};
                         grid-row: auto;
+                        font-size: 1.5em;
                         grid-template-areas: 
                         "logo#{$i}"
                         ;
@@ -63,10 +65,10 @@
                     }
                     :nth-child(2) {
                         display: grid;
-                        margin-top: -1em;
                         justify-self: center;
                         grid-area: lower#{$i};
                         grid-row: auto;
+                        font-size: .8em;
                         grid-template-areas: 
                         "tabText#{$i}"
                         ;

@@ -16,7 +16,7 @@
 
         <div ng-repeat="(key, value) in projects">
             <div ng-if="projDisplay === key">
-                <div>
+                <div class="overview">
                     <div>
                         {{value.name}}
                     </div>
@@ -41,7 +41,7 @@
 
                 <div ng-repeat="(key, value) in value.grabs">
                     <div ng-if="grabDisplay === key">
-                        <div>
+                        <div class="grabInfoWrap">
                             <div>
                                 {{value.name}}
                             </div>
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                         <div>
-                            <div>
+                            <div class="imgWrap">
                                 <img class="projImg" ng-src="{{value.img}}">
                             </div>
                         </div>

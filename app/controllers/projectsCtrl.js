@@ -42,6 +42,7 @@ angular.module("gwDev")
         if ($scope.projDisplay != numb)
         {
             $scope.projDisplay = numb
+            $scope.grabDisplay = "1"
         }
     }
 

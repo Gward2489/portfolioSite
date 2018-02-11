@@ -16,7 +16,7 @@
                     "img": "../images/gp3.png"
                 },
                 "2": {
-                    "name": "Log In / Registration Portal",
+                    "name": "Log In/Registration",
                     "description": "On this page, users may register for an account, or log in if they have previously registered. Google Firebase is used for user authentication, and storage of user account information.",
                     "img": "../images/gp4.png"
                 },
@@ -36,22 +36,22 @@
                     "img": "../images/gp9.png"
                 },
                 "6": {
-                    "name": "User Guitar Entry",
+                    "name": "Guitar Entry",
                     "description": "AngularJs and CSS Grid are used to render a form for intaking the information needed to create a new guitar in the user's collection. After Submiting their guitar information, the user is redirected to their current collection of guitars. The user's collection of guitars is stored in Google Firebase.",
                     "img": "../images/gp10.png"
                 },
                 "7": {
-                    "name": "User Guitar Collection",
+                    "name": "Guitar Collection",
                     "description": "AngularJs, Google Firabase, the Ebay API, CSS Grid, and Javascript are used in conjunction to render rows of th user's guitars. Everytime the user visits this page the application performs new calls to Ebay to obtain the most recent sales data. The collection is interactive. Users may view average, high price, and low price information by clicking the corresponding button. They may also delete a guitar from their collection. Like the other search features, if no results or a single result are returned, angularJs is used to display the appropriate information.",
                     "img": "../images/gp5.png"
                 },
                 "8": {
-                    "name": "User Guitar High Prices",
+                    "name": "Guitar High Prices",
                     "description": "AngularJs is used to display high prices. If there was a single result or no results, angularJs renders the appropriate information.",
                     "img": "../images/gp6.png"
                 },
                 "9": {
-                    "name": "User Guitar Low Prices",
+                    "name": "Guitar Low Prices",
                     "description": " ",
                     "img": "../images/gp7.png"
                 }
@@ -84,22 +84,22 @@
                     "img": "../images/nutshell4.png"
                 },
                 "5": {
-                    "name": "Live Messages with Local Storage",
+                    "name": "Live Messages",
                     "description": "By placing an event listener on local storage, the chat room is updated across all open tabs as soon as a message is submitted.",
                     "img": "../images/nutshell5.png"
                 },
                 "6": {
-                    "name": "Message Editing and Deleting",
+                    "name": "Message Editing/Deleting",
                     "description": "Users may edit and delete their messages. This features is built with javascript, browserify, and event listeners on local storage.",
                     "img": "../images/nutshell6.png"
                 },
                 "7": {
-                    "name": "Live Message Edits and Updates",
+                    "name": "Live Edits/Updates",
                     "description": "The message board is immedianty updated across all tabs when messages are edited or deleted. This feature is built with javascript, browserify, and event listeners on local storage.",
                     "img": "../images/nutshell7.png"
                 },
                 "8": {
-                    "name": "Add Friends From The Message Board",
+                    "name": "Add Friend",
                     "description": "If you click on another user's name you will be prompted to add them to your friend list, or not. This feature is built with javascript and browserify.",
                     "img": "../images/nutshell8.png"
                 }
@@ -117,12 +117,12 @@
                     "img": "../images/movie1.png"
                 },
                 "2": {
-                    "name": "Log In / Registration Portal",
+                    "name": "Log In/Registration",
                     "description": "A log in and registration portal built with javascript, jQuery, and Google Firebase.",
                     "img": "../images/movie2.png"
                 },
                 "3": {
-                    "name": "User Landing Page",
+                    "name": "User Home Page",
                     "description": "The landing page for users after they log in. From this page they may navigate to search for new movies to track, or navigate to view their current collection of saved movies.",
                     "img": "../images/movie3.png"
                 },
@@ -132,7 +132,7 @@
                     "img": "../images/movie4.png"
                 },
                 "5": {
-                    "name": "Tracked Movie Collection",
+                    "name": "Movie Collection",
                     "description": "On this page, users may view their collection of tracked movies. By default is will show movies that they have watched and not watched.",
                     "img": "../images/movie5.png"
                 },
