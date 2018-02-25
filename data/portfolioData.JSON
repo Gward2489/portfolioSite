@@ -52,7 +52,7 @@
                 },
                 "9": {
                     "name": "Guitar Low Prices",
-                    "description": " ",
+                    "description": "AngularJs is used to display low prices. If there was a single result or no results, angularJs renders the appropriate information.",
                     "img": "../images/gp7.png"
                 }
             }

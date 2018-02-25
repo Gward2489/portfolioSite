@@ -10,6 +10,8 @@
         grid-area: bar;
         background-color: rgba(119, 239, 255, 0.788);
         grid-template-columns: 1fr 2fr 1fr 9fr 1fr;
+        box-shadow: 0 4px 2px -2px lightgray;
+        max-height: 10em;
         grid-template-areas: 
         ". devDisplay . links ."
         ;
@@ -18,18 +20,25 @@
             grid-area: devDisplay;
             grid-template-rows: 1fr 1fr;
             grid-template-areas: 
-            "devPic"
             "devName"
+            "devPic"
             ;
             :nth-child(1) {
-                grid-area: devPic;
+                grid-area: devName;
                 white-space: nowrap;
                 justify-self: center;
             }
         
             :nth-child(2) {
-                grid-area: devName;
+                grid-area: devPic;
                 justify-self: center;
+                :only-child {
+                    border-radius: 100%;
+                    border: solid 3px black;
+                    background-color: white;
+                    margin-top: -3em;
+                    padding: 4em;                    
+                }
             }
         }
         .linksSubGrid {

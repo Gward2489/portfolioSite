@@ -3,10 +3,9 @@
   grid-area: content;
   justify-self: center;
   text-align: center;
-  margin: 0 3.3em 0 3.3em;
+  margin: 1em 3.3em 0 3.3em;
   height: 53em;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 5% 90% 5%;
+  grid-template-columns: 1fr 8fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "left projWrap right" ". projNumbs ."; }
   .projectsWrap .rightArrow {
@@ -44,6 +43,7 @@
     .projectsWrap .projectsWrap2 .overview :nth-child(3) {
       font-style: italic; }
     .projectsWrap .projectsWrap2 .overview :nth-child(4) {
+      font-size: 1.3em;
       line-height: 1.2em;
       margin-top: .5em; }
     .projectsWrap .projectsWrap2 .buttonWrap {
@@ -54,7 +54,7 @@
         align-self: center;
         justify-self: center;
         text-align: center;
-        background-color: #66cfdd;
+        background-color: #43becf;
         border: none;
         border-radius: 5%;
         color: white;
@@ -75,14 +75,15 @@
         margin-top: .5em;
         border: .3em solid #99999947;
         border-radius: 1.5%;
-        width: 45em; }
+        width: 55em; }
   .projectsWrap .grabInfoWrap :nth-child(1) {
-    font-size: 1.3em;
+    font-size: 1.7em;
     margin: 0 27em .5em 27em;
     padding-bottom: .2em;
     border-bottom: .1em solid #99999947;
     white-space: nowrap; }
   .projectsWrap .grabInfoWrap :nth-child(2) {
+    font-size: 1.4em;
     line-height: 1.2em; }
 
 /*# sourceMappingURL=projects.css.map */

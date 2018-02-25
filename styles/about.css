@@ -12,14 +12,16 @@
   margin: 0 16em 0 16em;
   padding-bottom: -3em;
   font-size: 1.8em;
-  border-bottom: .1em solid #99999947;
   grid-area: head; }
   .aboutHeader h2 {
     margin-bottom: .1em; }
 
 .bioWrap {
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.5em;
+  padding: .5em;
+  border: .2em solid #99999947;
+  border-radius: 2em;
   line-height: 1.1em;
   display: grid;
   grid-area: body; }
