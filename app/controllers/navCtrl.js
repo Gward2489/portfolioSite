@@ -17,6 +17,10 @@ angular.module("gwDev")
         $location.url("/technologies")
     }
 
+    $scope.toMail = function() {
+        $location.url("/email")
+    }
+    
     $scope.toGitHub = function() {
         $window.open("http://github.com/Gward2489")
     }
@@ -24,4 +28,5 @@ angular.module("gwDev")
     $scope.toLinkedIn = function() {
         $window.open("http://www.linkedin.com/in/garrettwarddev/")
     }
+
 })

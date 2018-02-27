@@ -18,5 +18,9 @@ app.config(function($routeProvider) {
             templateUrl: "app/partials/pdf.html",
             controller:  "pdfCtrl"
         })
+        .when("/email", {
+            templateUrl: "app/partials/email.html",
+            controller:  "emailCtrl"  
+        })
         .otherwise("/splash");
 });

@@ -4,7 +4,7 @@
     grid-area: content;
     justify-self: center;
     text-align: center;
-    margin: 5em 3.3em 0 3.3em;
+    margin: 5.3em 3.3em 0 3.3em;
     height: 53em;
     background-color: rgba(245, 245, 245, 0.76);
     padding: 1em 1em 8em 1em;
@@ -49,10 +49,9 @@
             :nth-child(#{$i}) {
                 @if $i == 1 {
                     white-space: nowrap;
-                    font-size: 1.8em;
+                    font-size: 2.1em;
                     margin: 0 16em .5em 16em;
-                    padding-bottom: .2em;
-                    border-bottom: .1em solid #99999947;
+                    
                 }
                 @if $i == 2 {
                     margin-bottom: .5em;
@@ -109,9 +108,6 @@
     .grabInfoWrap {
         :nth-child(1){
             font-size: 1.7em;
-            margin: 0 27em .5em 27em;            
-            padding-bottom: .2em;
-            border-bottom: .1em solid #99999947;
             white-space: nowrap;
             
         }

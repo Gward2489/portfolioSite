@@ -23,6 +23,10 @@ angular.module("gwDev")
             "getProjects": {
                 value: () => this.cache.data.projects,
                 writable: true
+            },
+            "getTech": {
+                value: () => this.cache.data.technologies,
+                writable: true
             }
         })
     })

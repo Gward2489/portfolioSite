@@ -1,0 +1,54 @@
+.techDisplay{
+    display: grid;
+    margin-top: 3.4em;
+    grid-area: content;
+    grid-template-areas:
+    "wrapper"
+    ; 
+    .techWrapper{
+        display: grid;
+        justify-self: center;
+        justify-content: center;
+        border: solid 2px #99999947;
+        background-color: rgba(245, 245, 245, 0.76);
+        border-radius: 4em;
+        padding: 0 1.3em 1em 1.3em;  
+        grid-area: wrapper;
+        grid-template-rows: 10% 90%;
+        grid-template-areas: 
+        "techHeader"
+        "images"
+        ;
+        .techHeader{
+            display: grid;
+            justify-self: center;
+            align-self: center;
+            font-size: 2em;         
+            grid-area: techHeader;
+            :only-child{
+                border-bottom: .1em solid #99999947;
+                padding: .3em;   
+            }
+        }
+        .techImages{
+            display: grid;
+            grid-area: images;
+            ; 
+            .techRowWrapper{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-column-gap: 1.3em;
+                text-align: center;
+                grid-template-areas: 
+                "img1 img2 img3 img4 img5"
+                ;
+                @for $i from 1 through 5 {
+                    :nth-child(#{$i}) {
+                        grid-area: img#{$i};
+
+                    }
+                }
+            }
+        }
+    }
+}

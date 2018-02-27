@@ -3,7 +3,7 @@
   grid-area: content;
   justify-self: center;
   text-align: center;
-  margin: 5em 3.3em 0 3.3em;
+  margin: 5.3em 3.3em 0 3.3em;
   height: 53em;
   background-color: rgba(245, 245, 245, 0.76);
   padding: 1em 1em 8em 1em;
@@ -37,10 +37,8 @@
     grid-area: projWrap; }
     .projectsWrap .projectsWrap2 .overview :nth-child(1) {
       white-space: nowrap;
-      font-size: 1.8em;
-      margin: 0 16em .5em 16em;
-      padding-bottom: .2em;
-      border-bottom: .1em solid #99999947; }
+      font-size: 2.1em;
+      margin: 0 16em .5em 16em; }
     .projectsWrap .projectsWrap2 .overview :nth-child(2) {
       margin-bottom: .5em;
       font-style: italic; }
@@ -82,9 +80,6 @@
         border-radius: 1.5%; }
   .projectsWrap .grabInfoWrap :nth-child(1) {
     font-size: 1.7em;
-    margin: 0 27em .5em 27em;
-    padding-bottom: .2em;
-    border-bottom: .1em solid #99999947;
     white-space: nowrap; }
   .projectsWrap .grabInfoWrap :nth-child(2) {
     font-size: 1.4em;

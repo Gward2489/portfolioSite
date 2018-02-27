@@ -1,0 +1,42 @@
+.emailDisplay {
+  display: grid;
+  grid-area: content;
+  grid-template-columns: 15% 60% 15%;
+  grid-template-areas: ". emails ."; }
+  .emailDisplay .emailWrapper {
+    margin-top: 6em;
+    display: grid;
+    border: solid 2px #99999947;
+    border-radius: 4em;
+    justify-self: center;
+    align-self: center;
+    background-color: rgba(245, 245, 245, 0.76);
+    grid-area: emails;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "img emailText"; }
+    .emailDisplay .emailWrapper .funImageWrapper {
+      display: grid;
+      grid-area: img; }
+      .emailDisplay .emailWrapper .funImageWrapper :only-child {
+        border-radius: 4em 0 0 4em;
+        max-height: 33em;
+        max-width: auto;
+        box-shadow: 10px 0 5px -2px #888; }
+    .emailDisplay .emailWrapper .emailText {
+      grid-area: emailText;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas: "text" "address"; }
+      .emailDisplay .emailWrapper .emailText .emailLine {
+        grid-area: text;
+        text-align: center;
+        font-size: 3em;
+        padding: 1em 0em .3em 0em;
+        margin: 0 2em 0 2em; }
+      .emailDisplay .emailWrapper .emailText .emailAddress {
+        grid-area: address;
+        font-size: 4em;
+        text-align: center;
+        margin: -1.3em 2em 0 2em; }
+
+/*# sourceMappingURL=emailStyles.css.map */

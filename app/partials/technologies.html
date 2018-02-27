@@ -1,0 +1,23 @@
+<div class="techDisplay">
+    <div class="techWrapper">
+        <div class="techHeader">
+            <h2>
+                Technologies
+            </h2>
+        </div>
+        <div class="techImages">
+            <div class="techRowWrapper" ng-repeat="row in techArray">
+                <div class="techRow" ng-repeat="techObj in row">
+                    <div class="techObj">
+                        <div class="techImgWrapper">
+                            <img ng-src="{{techObj.img}}">
+                        </div>
+                        <div class="techName">
+                            <p>{{techObj.name}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
