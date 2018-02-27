@@ -2,12 +2,13 @@
 
 .aboutWrap {
     display: grid;
-    margin: 0 5em 0 5em;
+    margin: 1.6em 5em 0 5em;
     grid-area: content;
     grid-template-rows: 15% 85%;
+    grid-template-columns: 1fr 6fr 1fr;
     grid-template-areas: 
-    "head"
-    "body"
+    ". head ."
+    ". body ."
     ;
 }
 
@@ -28,6 +29,7 @@
 .bioWrap {
     text-align: center;
     font-size: 1.5em;
+    background-color: rgba(245, 245, 245, 0.76);
     padding: .5em;
     border: .2em solid #99999947;
     border-radius: 2em;

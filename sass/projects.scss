@@ -4,8 +4,12 @@
     grid-area: content;
     justify-self: center;
     text-align: center;
-    margin: 1em 3.3em 0 3.3em;
+    margin: 5em 3.3em 0 3.3em;
     height: 53em;
+    background-color: rgba(245, 245, 245, 0.76);
+    padding: 1em 1em 8em 1em;
+    border: solid 2px #99999947;
+    border-radius: 4em;   
     grid-template-columns: 1fr 8fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 
@@ -28,7 +32,7 @@
     .projectNumbers {
         display: flex;
         margin-top: 1em;
-        font-size: 1.3em;
+        font-size: 2.3em;
         font-weight: 600;
         justify-content: center;
         grid-area: projNumbs;
@@ -45,7 +49,7 @@
             :nth-child(#{$i}) {
                 @if $i == 1 {
                     white-space: nowrap;
-                    font-size: 2em;
+                    font-size: 1.8em;
                     margin: 0 16em .5em 16em;
                     padding-bottom: .2em;
                     border-bottom: .1em solid #99999947;
@@ -95,10 +99,10 @@
             margin: 0 1em 0 1em;
             .projImg {
                 height: auto;
+                max-width: 55em;
                 margin-top: .5em;
                 border: .3em solid #99999947;
                 border-radius: 1.5%;
-                width: 55em;
             }
         }
     }

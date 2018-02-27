@@ -5,6 +5,8 @@ $fontStack: 'Josefin Sans', sans-serif;
 body {
     font: 100% $fontStack;
     display: grid;
+    background-image: url("../images/linkmap.jpeg");
+    background-size: cover;
     grid-template-rows: 15% 85%;
     grid-template-areas: 
     "navi"

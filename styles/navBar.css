@@ -6,6 +6,7 @@
   .navWrap .navBar {
     display: grid;
     grid-area: bar;
+    margin: -1em -1em 1em -1em;
     background-color: rgba(119, 239, 255, 0.788);
     grid-template-columns: 1fr 2fr 1fr 9fr 1fr;
     box-shadow: 0 4px 2px -2px lightgray;
@@ -14,12 +15,16 @@
     .navWrap .navBar .devIcons {
       display: grid;
       grid-area: devDisplay;
+      margin-top: -1.5em;
       grid-template-rows: 1fr 1fr;
       grid-template-areas: "devName" "devPic"; }
       .navWrap .navBar .devIcons :nth-child(1) {
         grid-area: devName;
         white-space: nowrap;
         justify-self: center; }
+        .navWrap .navBar .devIcons :nth-child(1) :only-child {
+          font-size: 3em;
+          margin-bottom: 1.5em; }
       .navWrap .navBar .devIcons :nth-child(2) {
         grid-area: devPic;
         justify-self: center; }
@@ -27,8 +32,9 @@
           border-radius: 100%;
           border: solid 3px black;
           background-color: white;
-          margin-top: -3em;
-          padding: 4em; }
+          margin-top: -5em;
+          height: 12em;
+          width: auto; }
     .navWrap .navBar .linksSubGrid {
       display: grid;
       grid-area: links;
@@ -44,10 +50,10 @@
         .navWrap .navBar .linksSubGrid :nth-child(1) :nth-child(1) {
           display: grid;
           justify-self: center;
-          margin-top: -.5em;
+          margin-top: -.2em;
           grid-area: upper1;
           grid-row: auto;
-          font-size: 1.5em;
+          font-size: 1.9em;
           grid-template-areas: "logo1"; }
           .navWrap .navBar .linksSubGrid :nth-child(1) :nth-child(1) i {
             grid-area: logo1; }
@@ -56,9 +62,11 @@
           justify-self: center;
           grid-area: lower1;
           grid-row: auto;
-          font-size: .8em;
+          font-size: .9em;
           grid-template-areas: "tabText1"; }
           .navWrap .navBar .linksSubGrid :nth-child(1) :nth-child(2) h5 {
+            border-bottom: 4px solid lightskyblue;
+            padding-bottom: 1em;
             grid-area: tabText1; }
       .navWrap .navBar .linksSubGrid :nth-child(2) {
         display: grid;
@@ -69,10 +77,10 @@
         .navWrap .navBar .linksSubGrid :nth-child(2) :nth-child(1) {
           display: grid;
           justify-self: center;
-          margin-top: -.5em;
+          margin-top: -.2em;
           grid-area: upper2;
           grid-row: auto;
-          font-size: 1.5em;
+          font-size: 1.9em;
           grid-template-areas: "logo2"; }
           .navWrap .navBar .linksSubGrid :nth-child(2) :nth-child(1) i {
             grid-area: logo2; }
@@ -81,9 +89,11 @@
           justify-self: center;
           grid-area: lower2;
           grid-row: auto;
-          font-size: .8em;
+          font-size: .9em;
           grid-template-areas: "tabText2"; }
           .navWrap .navBar .linksSubGrid :nth-child(2) :nth-child(2) h5 {
+            border-bottom: 4px solid lightskyblue;
+            padding-bottom: 1em;
             grid-area: tabText2; }
       .navWrap .navBar .linksSubGrid :nth-child(3) {
         display: grid;
@@ -94,10 +104,10 @@
         .navWrap .navBar .linksSubGrid :nth-child(3) :nth-child(1) {
           display: grid;
           justify-self: center;
-          margin-top: -.5em;
+          margin-top: -.2em;
           grid-area: upper3;
           grid-row: auto;
-          font-size: 1.5em;
+          font-size: 1.9em;
           grid-template-areas: "logo3"; }
           .navWrap .navBar .linksSubGrid :nth-child(3) :nth-child(1) i {
             grid-area: logo3; }
@@ -106,9 +116,11 @@
           justify-self: center;
           grid-area: lower3;
           grid-row: auto;
-          font-size: .8em;
+          font-size: .9em;
           grid-template-areas: "tabText3"; }
           .navWrap .navBar .linksSubGrid :nth-child(3) :nth-child(2) h5 {
+            border-bottom: 4px solid lightskyblue;
+            padding-bottom: 1em;
             grid-area: tabText3; }
       .navWrap .navBar .linksSubGrid :nth-child(4) {
         display: grid;
@@ -119,10 +131,10 @@
         .navWrap .navBar .linksSubGrid :nth-child(4) :nth-child(1) {
           display: grid;
           justify-self: center;
-          margin-top: -.5em;
+          margin-top: -.2em;
           grid-area: upper4;
           grid-row: auto;
-          font-size: 1.5em;
+          font-size: 1.9em;
           grid-template-areas: "logo4"; }
           .navWrap .navBar .linksSubGrid :nth-child(4) :nth-child(1) i {
             grid-area: logo4; }
@@ -131,9 +143,11 @@
           justify-self: center;
           grid-area: lower4;
           grid-row: auto;
-          font-size: .8em;
+          font-size: .9em;
           grid-template-areas: "tabText4"; }
           .navWrap .navBar .linksSubGrid :nth-child(4) :nth-child(2) h5 {
+            border-bottom: 4px solid lightskyblue;
+            padding-bottom: 1em;
             grid-area: tabText4; }
       .navWrap .navBar .linksSubGrid :nth-child(5) {
         display: grid;
@@ -144,10 +158,10 @@
         .navWrap .navBar .linksSubGrid :nth-child(5) :nth-child(1) {
           display: grid;
           justify-self: center;
-          margin-top: -.5em;
+          margin-top: -.2em;
           grid-area: upper5;
           grid-row: auto;
-          font-size: 1.5em;
+          font-size: 1.9em;
           grid-template-areas: "logo5"; }
           .navWrap .navBar .linksSubGrid :nth-child(5) :nth-child(1) i {
             grid-area: logo5; }
@@ -156,9 +170,11 @@
           justify-self: center;
           grid-area: lower5;
           grid-row: auto;
-          font-size: .8em;
+          font-size: .9em;
           grid-template-areas: "tabText5"; }
           .navWrap .navBar .linksSubGrid :nth-child(5) :nth-child(2) h5 {
+            border-bottom: 4px solid lightskyblue;
+            padding-bottom: 1em;
             grid-area: tabText5; }
       .navWrap .navBar .linksSubGrid :nth-child(6) {
         display: grid;
@@ -169,10 +185,10 @@
         .navWrap .navBar .linksSubGrid :nth-child(6) :nth-child(1) {
           display: grid;
           justify-self: center;
-          margin-top: -.5em;
+          margin-top: -.2em;
           grid-area: upper6;
           grid-row: auto;
-          font-size: 1.5em;
+          font-size: 1.9em;
           grid-template-areas: "logo6"; }
           .navWrap .navBar .linksSubGrid :nth-child(6) :nth-child(1) i {
             grid-area: logo6; }
@@ -181,9 +197,11 @@
           justify-self: center;
           grid-area: lower6;
           grid-row: auto;
-          font-size: .8em;
+          font-size: .9em;
           grid-template-areas: "tabText6"; }
           .navWrap .navBar .linksSubGrid :nth-child(6) :nth-child(2) h5 {
+            border-bottom: 4px solid lightskyblue;
+            padding-bottom: 1em;
             grid-area: tabText6; }
 
 /*# sourceMappingURL=navBar.css.map */
